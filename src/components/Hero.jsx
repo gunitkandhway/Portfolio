@@ -1,5 +1,5 @@
 import React , { useState} from 'react'
-import hr from '../assets/curve-hr.svg'
+// import hr from '../assets/curve-hr.svg'
 import pfp from '/pfp.jpg'
 
 
@@ -55,7 +55,7 @@ export const Hero = () => {
                     </li>
                 </ul>
             </div>
-            <img src={hr} className="w-full md:h-2 absolute bottom-0" alt="hr" />
+           
         </div>
     </>
   )

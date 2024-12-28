@@ -1,6 +1,6 @@
 import React from 'react'
-import foodz from '../assets/foodz.png'
-import hr from "../assets/curve-hr.svg";
+
+// import hr from "../assets/curve-hr.svg";
 
 import ProjectCard from './ProjectCard';
 import ProjectData from '../Data/ProjectData.js';
@@ -22,7 +22,6 @@ const Projects = () => {
             })
         }
     </div>
-    <img src={hr} className="w-full mt-8 md:h-2" alt="hr" />
 </div>
   )
 }

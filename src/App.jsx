@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 function App() {
   useEffect(() => {
-    document.title = "Gunit Kandhway";
+    document.title = "Gunit";
     AOS.init();
   }, []);
 

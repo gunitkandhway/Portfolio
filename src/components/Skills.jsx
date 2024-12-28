@@ -17,10 +17,10 @@ import git from "../assets/skills/git.svg"
 import express from "../assets/skills/express.svg"
 import gitlab from "../assets/skills/gitlab.svg"
 import nodejs from "../assets/skills/nodejs.svg"
-import hr from "../assets/curve-hr.svg"
+// import hr from "../assets/curve-hr.svg"
 import html from "../assets/skills/html.svg"  
 import mongodb from "../assets/skills/mongodb.svg" 
-import chch from "../assets/c.jpg"
+
 
 
 const SkillList = [
@@ -62,11 +62,6 @@ const SkillList = [
   },
 
   {
-    name:"docker",
-    img: docker,
-  },
-
-  {
     name:"git",
     img: git,
   },
@@ -90,10 +85,7 @@ const SkillList = [
     name : "windows",
     img: windows,
   },
-  {
-    name:"c++",
-    img: chch,
-  },
+  
  
  
 ]
@@ -120,7 +112,6 @@ export const Skills = () => {
         }
         </Slider>
     </div>
-    <img src={hr} className="w-full mt-8 md:h-3" alt="hr" />
 </div>
   )
 }

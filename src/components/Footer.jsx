@@ -1,5 +1,5 @@
 import React from 'react'
-import hr from '../assets/curve-hr.svg'
+
 
 const Footer = () => {
   return (
@@ -8,7 +8,8 @@ const Footer = () => {
 
     
 
-    <p className="text-sm font-light text-center">Copyright © 2024 Shiv Shankar Singh. All Right Reserved</p>
+
+    <p className="text-sm font-light text-center">Copyright © 2024 Gunit Kandhway. All Right Reserved</p>
 
   </div>
   )
